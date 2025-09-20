@@ -1,6 +1,6 @@
 # UsuariosApp
 
-Este é um projeto de exemplo chamado UsuariosApp, uma API ASP.NET Core que gerencia usuários utilizando Entity Framework, Identity, JWT e XUnit.
+Este é um projeto de exemplo chamado UsuariosApp, uma API ASP.NET Core que gerencia usuários utilizando Entity Framework, Identity, Migrations, JWT e XUnit.
 
 ## Descrição
 
