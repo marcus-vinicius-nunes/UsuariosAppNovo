@@ -19,7 +19,7 @@ namespace UsuariosApp.Tests
                 var request = new AutenticarUsuarioRequestModel
                 {
                     Email = "administrador@test.com",
-                    Senha = "@Test123"
+                    Senha = "@Test12"
                 };
                 var jsonRequest = new StringContent
                 (JsonConvert.SerializeObject(request), Encoding.UTF8, "application/json");
