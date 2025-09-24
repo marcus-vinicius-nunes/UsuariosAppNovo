@@ -7,6 +7,7 @@ builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddSwaggerDoc();
 builder.Services.AddIdentityContext(builder.Configuration);
 builder.Services.AddJwtBearer(builder.Configuration);
+builder.Services.AddCorsConfig();
 
 var app = builder.Build();
 
