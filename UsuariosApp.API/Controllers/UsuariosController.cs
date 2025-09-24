@@ -25,7 +25,7 @@ namespace UsuariosApp.API.Controllers
         private string msgAcessoNegado
        => "Acesso negado. Usuário inválido.";
         [HttpPost]
-        [Route("autenticar")] //ENDPOINT: api/usuarios/autenticar
+        [Route("autenticar")] //ENDPOINT: api/usuarios/autenticar  
         [ProducesResponseType(typeof(AutenticarUsuarioResponseModel), 200)]
         public async Task<IActionResult>
        Autenticar(AutenticarUsuarioRequestModel model)
